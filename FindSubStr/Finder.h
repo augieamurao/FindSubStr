@@ -1,5 +1,17 @@
 #pragma once
 #include <string>
+class FinderBase1
+{
+public:
+	virtual unsigned int Find(std::string inputString, std::string searchString);
+};
+
+class FinderBruteForce1:public FinderBase
+{
+public:
+	unsigned int Find(std::string inputString, std::string searchString);
+};
+
 class Finder
 {
 public:

@@ -23,7 +23,7 @@
     <ProjectGuid>{8A4CEF10-0D20-499A-BC80-A4552E013E75}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>FindSubStr</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -147,13 +147,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BruteForceFinder.h" />
     <ClInclude Include="Finder.h" />
+    <ClInclude Include="FinderBase.h" />
+    <ClInclude Include="RegressionFinder.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Finder.cpp" />
+    <ClCompile Include="BruteForceFinder.cpp" />
+    <ClCompile Include="FinderBase.cpp" />
     <ClCompile Include="FindSubStr.cpp" />
+    <ClCompile Include="RegressionFinder.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

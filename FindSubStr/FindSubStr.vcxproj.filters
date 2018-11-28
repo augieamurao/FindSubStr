@@ -24,6 +24,15 @@
     <ClInclude Include="Finder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="FinderBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BruteForceFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RegressionFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -32,7 +41,13 @@
     <ClCompile Include="FindSubStr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Finder.cpp">
+    <ClCompile Include="FinderBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BruteForceFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegressionFinder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
